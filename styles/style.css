@@ -1,0 +1,129 @@
+*{
+	font-family: 'Georgia', serif;
+	-webkit-font-smoothing: antialiased;
+}
+
+html, body{
+	font-size:14px;
+	padding: 0;
+	margin: 0;
+}
+
+header{
+	width:100%;
+	text-align: center;
+	height: 70px;
+	opacity:.95;
+	z-index: 1;
+	background: rgb(61,91,152);
+	background-position: fixed;
+}
+
+.navbar{
+	width:150px;
+	float:left;
+	display:inline;
+	margin:0;
+	padding:0;
+	margin-right:10px;
+	background-position: left;
+
+}
+
+ul.nav{
+	text-transform:uppercase;
+}
+
+ul.nav li{
+	display:inline-block;
+	background-color:#6f5499;
+	border:4px;
+	padding:10px;
+	margin:10px;
+	border-radius:10px;
+}
+
+ul.nav li a{
+	text-decoration: none;
+	font-family: sans-serif;
+}
+
+ul.nav li:hover{
+	background:blue;
+
+}
+
+header a{
+	color:white;
+	text-decoration:none;
+	font-family:sans-serif;
+	padding:10px 0 0 40px;
+	font-size:16px;
+	background: url(images/facebook.jpeg);
+	background-repeat:no-repeat;
+	background-size:80px;
+	background-position:0 10px;
+	height:50px;
+	font-weight:bold;
+	display:inline-block;
+}
+.container1{
+	margin:0 auto;
+	height:100%;
+	max-width:1440px;
+	padding:0;
+	overflow:auto;
+
+
+}
+
+h1{
+	text-align:center;
+	font-family:'Headline Text',serif;
+	font-size:4em;
+	font-weight:200p;
+	padding:0 0 10px .5%;
+	border-bottom:2px solid black;
+	margin: 0 .5% 10px .5%;
+	opacity:.8;
+
+}
+
+article{
+	background:white;
+	float:left;
+	width:30%;
+	max-width:720px;
+	min-width:340px;
+	margin:1%;
+	padding:10px;
+	display-in
+
+}
+
+article img{
+	width:50%;
+	float:left;
+	margin:5px 20px 0 0;
+	border:4px;
+
+}
+
+.columnleft{
+	width:33%;
+	float:left;
+}
+.columnright{
+	float:right;
+	width:33%;
+}
+
+.columncenter{
+	display:inline-block;
+	width:33%;
+}
+
+
+}
+
+}

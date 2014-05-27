@@ -23,7 +23,7 @@ header{
 	width:150px;
 	float:left;
 	display:inline;
-	margin:0px 700px 0px 0px;
+	margin:0;
 	padding:0;
 	margin-right:10px;
 	background-position: left;
@@ -93,11 +93,11 @@ article{
 	background:white;
 	float:left;
 	width:30%;
-	max-width:300px;
-	min-width:200px;
+	max-width:720px;
+	min-width:340px;
 	margin:1%;
 	padding:10px;
-	display:block;
+	display-in
 
 }
 
@@ -107,14 +107,23 @@ article img{
 	margin:5px 20px 0 0;
 	border:4px;
 
-
 }
 
-.wildcard{
+.columnleft{
+	width:33%;
+	float:left;
+}
+.columnright{
 	float:right;
+	width:33%;
+}
+
+.columncenter{
 	display:inline-block;
+	width:33%;
+}
 
 
 }
 
-
+}

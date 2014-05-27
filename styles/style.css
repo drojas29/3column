@@ -70,9 +70,10 @@ header a{
 .container1{
 	margin:0 auto;
 	height:100%;
-	max-width:1440px;
+	max-width:1200px;
 	padding:0;
 	overflow:auto;
+	width:100%;
 
 
 }
@@ -90,14 +91,16 @@ h1{
 }
 
 article{
-	background:white;
+	background:red !important;
 	float:left;
-	width:30%;
+	width:31%;
 	max-width:720px;
 	min-width:340px;
 	margin:1%;
 	padding:10px;
-	display-in
+	display: block;
+	box-sizing: border-box;
+	min-height: 370px;
 
 }
 
@@ -109,21 +112,5 @@ article img{
 
 }
 
-.columnleft{
-	width:33%;
-	float:left;
-}
-.columnright{
-	float:right;
-	width:33%;
-}
-
-.columncenter{
-	display:inline-block;
-	width:33%;
-}
 
 
-}
-
-}

@@ -1,0 +1,40 @@
+*{
+	font-family: 'sans-serif';
+
+}
+
+html,body{
+	font-size:20px;
+	padding:0
+	margin:0 auto;
+
+}
+
+header{
+	width:100%;
+	text-align:center;
+	height:80px;
+	background:rgb(70,100,150);
+	background-position:fixed;
+
+}
+
+img{
+	float:left;
+	width:31%;
+	max-width:300px;
+	min-width:200px;
+	margin:1%;
+	padding:20px;
+	display:block;
+	min-height:370px;
+}
+
+.container{
+	margin:0 auto;
+	height:100%;
+	max-width:1700px;
+	padding:0;
+	overflow:auto;
+	width:100%;
+}
